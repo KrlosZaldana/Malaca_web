@@ -176,3 +176,63 @@ nav ul li a {
 }
 
 /* Conócenos section */
+
+.conocenos_wrapper {
+    position: relative;
+    width: 100%;
+    height: 91.5rem;
+}
+
+.conocenos {
+    position: relative;
+    background-image: url('Images/Imagen_Conocenos.jpg');
+    background-size: cover;
+    background-position: -15rem center;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100%;
+}
+
+/* Estilo para la palabra "conócenos" rotada */
+.seccion-rotado h6 {
+    position: absolute;
+    color: var(--whiteClay-color); /* Aplica el color deseado */
+    transform: rotate(-90deg) translateY(-50%);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+
+    /*Estos cálculos mueven el texto dentro de la sección */
+    top: calc(0% + 3.71rem);
+    left: calc(0% - 1.75rem);
+}
+
+/*Estilo para el texto de la sección */
+.right h3 {
+    position: absolute;
+    color: var(--whiteClay-color);
+    font-size: 7.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+    top: 28.19rem;
+    right: 2.12rem;
+}
+
+/* Newsletter section */
+
+.newsletter_wrapper {
+    position: relative;
+    width: 100%;
+    height: 54.0625rem;
+}
+
+.newsletter {
+    position: relative;
+    background-image: url('Images/Fondo_Newsletter.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100%;
+}
