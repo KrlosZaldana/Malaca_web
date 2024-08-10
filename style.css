@@ -187,7 +187,7 @@ nav ul li a {
     position: relative;
     background-image: url('Images/Imagen_Conocenos.jpg');
     background-size: cover;
-    background-position: -15rem center;
+    background-position: center;
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     height: 100%;
 }
@@ -216,8 +216,22 @@ nav ul li a {
     font-weight: 900;
     line-height: normal;
 
-    top: 28.19rem;
+    top: 15rem;
     right: 2.12rem;
+}
+
+.right p {
+    position: absolute;
+    color: var(--whiteClay-color);
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+
+    max-width: 38.25rem;
+
+    top: 42rem;
+    right: 11.94rem;
 }
 
 /* Newsletter section */
