@@ -134,5 +134,45 @@ nav ul li a {
     font-size: 1.5rem;
     text-decoration: none;
 
-
 }
+
+/* Hero section */
+.Hero1_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--thyme-color);
+    width: 100%;
+    height: 25.625rem;
+}
+
+.hero1 .center h1 {
+    text-align: center;
+    color: var(--whiteClay-color);
+    font-family: Raleway, sans-serif;
+    font-size: 10.5rem;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.Hero2_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--whiteClay-color);
+    width: 100%;
+    height: 9.375rem;
+}
+
+.hero2 .center h2 {
+    text-align: center;
+    color: var(--poppy-color);
+    font-family: Raleway, sans-serif;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* Conócenos section */
