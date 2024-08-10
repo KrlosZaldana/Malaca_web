@@ -29,6 +29,11 @@ body {
     }
 }
 
+.navBar_wrapper {
+    max-width: 64.5625rem;
+    margin: 0 auto;
+}
+
 /* Botones de compra */
 
 .comprar {
@@ -80,4 +85,54 @@ body {
 
 .comprar.comprar-icono-light {
     padding-left: 50px;
+}
+
+/* Header */
+
+header {
+    background: var(--thyme-color);
+    height: 33.75rem;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.1rem;
+    padding-top: 4.25rem;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav ul {
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    gap: 4.5rem;
+    align-items: center;
+
+}
+
+.nav-left {
+    margin-top: -0.75rem; /* Mueve el grupo izquierdo hacia la derecha */
+}
+
+.nav-right {
+    margin-top: -0.75rem; /* Mueve el grupo derecho hacia la izquierda */
+}
+
+nav ul li a {
+    color: var(--English-Violet, #53354C);
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+
 }
