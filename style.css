@@ -2,6 +2,82 @@
     --thyme-color: #87a680;
     --whiteClay-color: #f7e9de;
     --poppy-color: #db411c;
-    --eggplant-color: #4f364b;
+    --englishViolet-color: #4f364b;
     --lavender-color: #cabad8;
+
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    font-family: "Raleway", sans-serif;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul li {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* Botones de compra */
+
+.comprar {
+    padding-top: 0.188rem;
+    padding-bottom: 0.625rem;
+    padding-left: 0px;
+    padding-right: .938rem;
+    width: 11.625rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 2.8rem */
+    text-decoration: none;
+    position: relative;
+}
+
+.comprar.dark {
+    color: var(--whiteClay-color);
+    background: var(--englishViolet-color);
+
+}
+
+.comprar.light {
+    color: var(--englishViolet-color);
+    background: var(--whiteClay-color);
+}
+
+.comprar.comprar-icono-dark::before {
+    content: url(Images/Comprar_Blanco.svg);
+    position: absolute;
+    top: 55%;
+    left: 0.813rem;
+    transform: translateY(-50%);
+}
+
+.comprar.comprar-icono-dark {
+    padding-left: 50px;
+}
+
+.comprar.comprar-icono-light::before {
+    content: url(Images/Comprar_Morado.svg);
+    position: absolute;
+    top: 55%;
+    left: 0.813rem;
+    transform: translateY(-50%);
+}
+
+.comprar.comprar-icono-light {
+    padding-left: 50px;
 }
