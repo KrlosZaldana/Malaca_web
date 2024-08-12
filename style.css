@@ -234,17 +234,36 @@ nav ul li a {
     right: 11.94rem;
 }
 
-/*Tarjetas de colecciones */
+/*Colecciones section */
 
 .colecciones {
     position: relative;
     width: 100%;
     height: 75.5625rem;
+    padding: 2.5625rem;
+}
+
+#container {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.tarjeta-001 {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    padding: 2rem;
+    margin: 0 auto;
+    background-color: var(--whiteClay-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .texto-rotado {
     position: absolute;
-    color: var(--englishPurple-color); /* Aplica el color deseado */
+    color: var(--englishPurple-color);
     transform: rotate(-90deg) translateY(-50%);
     font-size: 2rem;
     font-style: normal;
@@ -254,6 +273,57 @@ nav ul li a {
     /*Estos cálculos mueven el texto dentro de la sección */
     top: calc(0% + 3.71rem);
     left: calc(0% - 1.75rem);
+}
+
+/* Carruseles de fotos */
+
+.carousel {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-inner {
+    display: flex;
+    width: 100%;
+    transition: margin-left 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.nombre_rotado_basicas {
+    position: absolute;
+    transform: rotate(-90deg) translateY(-50%);
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+
+    /*Estos cálculos mueven el texto dentro de la sección */
+    bottom: 5.625rem;
+    left: 6.125rem;
 }
 
 /* Newsletter section */

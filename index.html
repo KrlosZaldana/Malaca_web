@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
@@ -90,47 +91,39 @@
                         </h6>
                     </div>
 
-                    <div class="nombre_rotado">
+                    <div class="nombre_rotado_basicas">
                         <h4>
                         Básicas
                         </h4>
                     </div>
 
-                    <div class="numero_rotado">
+                    <div class="numero_rotado_001">
                         <h4>
                         001
                         </h4>
                     </div>
 
-                    <div class="Carrusel_Wrapper">
-                        <div class="Carrusel">
-                            <div class="carrusel_Item">
-                                <img src="Images/Basica_1.jpg" alt="">
+                    <!-- AQUI VA EL CARRUSEL -->
 
-                                <img src="Images/Basica_2.jpg" alt="">
-
-                                <img src="Images/Basica_3.jpg" alt="">
+                    <div id="container">
+                        <div id="slider-container">
+                            <span onclick="slideRight()" class="btn"></span>
+                            <div id="slider">
+                                <div class="slide"><span>200</span></div>
+                                <div class="slide"><span>150x150</span></div>
+                                <div class="slide"><span>150x150</span></div>
+                                <div class="slide"><span>150x150</span></div>
+                                <div class="slide"><span>150x150</span></div>
+                                <div class="slide"><span>400</span></div>
+                                <div class="slide"><span>150x150</span></div>
+                                <div class="slide"><span>150x150</span></div>
+                                <div class="slide"><span>150x150</span></div>
+                                <div class="slide"><span>150x150</span></div>
                             </div>
+                            <span onclick="slideLeft()" class="btn"></span>
                         </div>
-
-                        <button class="prev">
-                            <img src="Images/Flecha_Izquierda_Morada.svg" alt="">
-                        </button>
-
-                        <button class="next">
-                            <img src="Images/Flecha_Derecha_Morada.svg" alt="">
-                        </button>
-
-                        <div class="indicador">
-                            <span class="dot active">
-                            </span>
-                            <span class="dot">
-                            </span>
-                            <span class="dot">
-                            </span>
-                        </div>
-
                     </div>
+
                     <h5>
                         001
                     </h5>
@@ -153,13 +146,13 @@
                 </div>
 
                 <div class="002_Atrevidas_Wrapper">
-                    <div class="nombre_rotado">
+                    <div class="nombre_rotado_atrevidas">
                         <h4>
                         Atrevidas
                         </h4>
                     </div>
 
-                    <div class="numero_rotado">
+                    <div class="numero_rotado_002">
                         <h4>
                         002
                         </h4>
@@ -216,13 +209,13 @@
                 </div>
 
                 <div class="003_Iconos_Wrapper">
-                    <div class="nombre_rotado">
+                    <div class="nombre_rotado_iconos">
                         <h4>
                         Iconos
                         </h4>
                     </div>
 
-                    <div class="numero_rotado">
+                    <div class="numero_rotado_003">
                         <h4>
                         003
                         </h4>
@@ -346,7 +339,7 @@
 
     <!-- End of fotter section -->
 
-    <script src="main.js"></script>
+    <script type=text/javascript src="main.js"></script>
 
 </body>
 </html>
