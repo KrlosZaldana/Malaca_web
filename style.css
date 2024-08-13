@@ -236,6 +236,8 @@ nav ul li a {
 
 /*Colecciones section */
 
+/*Colección 001 */
+
 .Coleccion_001_wrapper {
     position: relative;
     width: 100%;
@@ -327,18 +329,163 @@ nav ul li a {
     right: 8.31rem;
 }
 
+/* Colección 002 */
+
 .Coleccion_002_wrapper {
     position: relative;
     width: 100%;
     height: 75.5625rem;
     padding: 2.5625rem;
+
+    background-color: var(--englishViolet-color);
 }
+
+.Coleccion_002 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Imagen_002{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.Imagen_002 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.left_002 h5 {
+    position: absolute;
+    color: var(--whiteClay-color, #53354C);
+    font-family: Raleway;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+
+    top: 11.56rem;
+    left: 5rem;
+}
+
+.left_002 h3 {
+    position: absolute;
+    color: var(--whiteClay-color, #53354C);
+    font-family: Raleway;
+    font-size: 7.5rem;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    padding: 0;
+    margin: -6rem;
+
+    top: 18.94rem;
+    left: 11.44rem;
+}
+
+.left_002 p {
+    position: absolute;
+    color: var(--whiteClay-color, #53354C);
+    font-family: Raleway;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 2.8rem */
+    padding: 0;
+    margin: 0;
+    width: 28.3125rem;
+    height: 22.4375rem;
+
+
+    top: 29.56rem;
+    left: 5.31rem;
+}
+
+
+/* Colección 003 */
 
 .Coleccion_003_wrapper {
     position: relative;
     width: 100%;
     height: 75.5625rem;
     padding: 2.5625rem;
+
+    background-color: var(--lavender-color);
+}
+
+.Coleccion_003 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Imagen_003{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0rem;
+}
+
+.Imagen_003 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.right_003 h5 {
+    position: absolute;
+    color: var(--English-Violet, #53354C);
+    font-family: Raleway;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+
+    top: 11.56rem;
+    right: 32.19rem;
+}
+
+.right_003 h3 {
+    position: absolute;
+    color: var(--English-Violet, #53354C);
+    font-family: Raleway;
+    font-size: 7.5rem;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+
+    top: 13.75rem;
+    right: 12.75rem;
+}
+
+.right_003 p {
+    position: absolute;
+    color: var(--English-Violet, #53354C);
+    font-family: Raleway;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 2.8rem */
+    padding: 0;
+    margin: 0;
+    width: 28.3125rem;
+    height: 22.4375rem;
+
+
+    top: 29.56rem;
+    right: 8.31rem;
 }
 
 /* Newsletter section */
