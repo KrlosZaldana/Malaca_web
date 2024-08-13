@@ -504,3 +504,52 @@ nav ul li a {
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     height: 100%;
 }
+
+.newsletterbox {
+    position: absolute;
+    display: flex;
+    bottom: 8.75rem;
+    left: 8.75rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--whiteClay-color); /* Ajusta el color y la opacidad del cuadro si es necesario */
+    padding: 2rem;
+    max-width: 30rem; /* Ajusta el ancho del cuadro */
+
+}
+
+.newsletterbox h6 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    margin-top: 0rem;
+    color: var(--englishViolet-color); /* Color del título */
+    text-align: center;
+}
+
+.newsletterbox form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Espaciado entre los cuadros de entrada y el botón */
+    width: 100%;
+}
+
+.newsletterbox input[type="text"] {
+    padding: 0.8rem;
+    border: 1px solid var(--englishViolet-color); /* Bordes de los cuadros de entrada */
+    border-radius: 4px;
+    font-size: 1.25rem;
+    color: var(--englishViolet-color);
+}
+
+.newsletterbox .submit-btn {
+    padding: 0.8rem;
+    border: none;
+    background-color: var(--poppy-color); /* Color del botón */
+    color: var(--whiteClay-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
