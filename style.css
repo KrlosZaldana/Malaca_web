@@ -34,6 +34,10 @@ body {
     margin: 0 auto;
 }
 
+.mobile-nav {
+    display: none; /* Oculta la barra de navegación móvil en pantallas grandes */
+}
+
 /* Botones de compra */
 
 .comprar {
@@ -625,7 +629,7 @@ footer p {
     margin-left: 180px;
 }
 
-/* Tamaño iPad Pro */
+/* ------------------ TAMAÑO IPAD PRO ------------------ */
 
 @media(max-width: 1100px) {
     .navBar_wrapper {
@@ -1167,5 +1171,561 @@ footer p {
     padding-top: 2.25rem;
     width: 70%;
     margin-left: 10rem;
+}
+}
+
+/* ------------------ TAMAÑO IPHONE ------------------ */
+
+@media(max-width: 940px) {
+
+.navBar_wrapper {
+    max-width: 100%rem;
+    margin: -0.5rem 4rem;
+}
+
+header {
+    background: var(--thyme-color);
+    height: 3.5625rem;
+    width: 100%;
+}
+
+nav.mobile-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.1rem;
+    padding-top: 3.25rem;
+    }
+
+.navbar {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.1rem;
+    padding-top: 4.25rem;
+}
+
+nav img {
+    height: 1.14rem;
+    width: 10.49rem;
+    object-fit: contain; /* Asegura que la imagen mantenga su proporción */
+    margin-right: -10rem
+}
+
+.menu-icon {
+        margin-left: -2rem; /* Ajusta el valor según el espacio deseado */
+    }
+
+/* Hero section */
+.Hero1_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--thyme-color);
+    width: 100%;
+    height: 8.93rem;
+}
+
+.hero1 .center h1 {
+    text-align: center;
+    color: var(--whiteClay-color);
+    font-family: Raleway, sans-serif;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.Hero2_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--whiteClay-color);
+    width: 100%;
+    height: 2.5rem;
+}
+
+.hero2 .center h2 {
+    text-align: center;
+    color: var(--poppy-color);
+    font-family: Raleway, sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* Conócenos section */
+
+.conocenos_wrapper {
+    position: relative;
+    width: 100%;
+    height: 25rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.conocenos {
+    position: relative;
+    background-image: url('Images/Imagen_Conocenos.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100%;
+
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Estilo para la palabra "conócenos" rotada */
+.seccion-rotado h6 {
+    display: none;
+    position: absolute;
+    color: var(--whiteClay-color); /* Aplica el color deseado */
+    transform: rotate(-90deg) translateY(-50%);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+
+    /*Estos cálculos mueven el texto dentro de la sección */
+    top: calc(0% + 3.71rem);
+    left: calc(0% - 0.5rem);
+}
+
+    .conocenos .right {
+        background-color: var(--thyme-color); /* Cambia este color según tus necesidades */
+        padding: 4.5rem;
+        margin-top: 16rem;
+        width: 100%;
+    }
+
+/*Estilo para el texto de la sección */
+.conocenos .right h3 {
+    position: absolute;
+    color: var(--whiteClay-color);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+
+    top: 16rem;
+    right: 3.5rem;
+
+    white-space: nowrap;
+}
+
+.right p {
+    position: absolute;
+    color: var(--whiteClay-color);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+
+    max-width: 19rem;
+
+    top: 19.5rem;
+    right: 3rem;
+}
+
+/*Colecciones section */
+
+/*Colección 001 */
+
+.Coleccion_001_wrapper {
+    position: relative;
+    width: 100%;
+    height: 27.87rem;
+    padding: 2.5625rem;
+    padding-bottom: 40rem;
+
+    background-color: var(--whiteClay-color);
+}
+
+.Coleccion_001 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto-rotado h6 {
+    display: none;
+    position: absolute;
+    color: var(--englishViolet-color); /* Aplica el color deseado */
+    transform: rotate(-90deg) translateY(-50%);
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+
+    /*Estos cálculos mueven el texto dentro de la sección */
+    top: calc(0% + 1.5rem);
+    left: calc(0% - 1.75rem);
+}
+
+.Imagen_001{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0rem;
+}
+
+.Imagen_001 img {
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+}
+
+.right_001 h5 {
+    position: absolute;
+    color: var(--English-Violet, #53354C);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+
+    top: 33rem;
+    left: 2rem;
+}
+
+.right_001 h3 {
+    position: absolute;
+    color: var(--English-Violet, #53354C);
+    font-family: Raleway;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+
+    top: 34rem;
+    left: 2rem;
+}
+
+.right_001 p {
+    position: absolute;
+    color: var(--English-Violet, #53354C);
+    font-family: Raleway;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 2.8rem */
+    padding: 0;
+    margin: 0;
+    width: 10.25rem;
+    height: auto;
+
+
+    top: 31rem;
+    right: 1rem;
+}
+
+/* Colección 002 */
+
+.Coleccion_002_wrapper {
+    position: relative;
+    width: 100%;
+    height: 27.87rem;
+    padding: 2.5625rem;
+    padding-bottom: 40rem;
+
+    background-color: var(--englishViolet-color);
+}
+
+.Coleccion_002 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Imagen_002{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0rem;
+}
+
+.Imagen_002 img {
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+}
+
+.left_002 h5 {
+    position: absolute;
+    color: var(--whiteClay-color);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+
+    top: 33rem;
+    left: 2rem;
+}
+
+.left_002 h3 {
+    position: absolute;
+    color: var(--whiteClay-color);
+    font-family: Raleway;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+
+    top: 34rem;
+    left: 2rem;
+}
+
+.left_002 p {
+    position: absolute;
+    color: var(--whiteClay-color);
+    font-family: Raleway;
+    font-size: 0.65rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 2.8rem */
+    padding: 0;
+    margin: 0;
+    width: 8.75rem;
+    height: auto;
+
+
+    top: 30rem;
+    left: 14.5rem;
+}
+
+
+/* Colección 003 */
+
+.Coleccion_003_wrapper {
+    position: relative;
+    width: 100%;
+    height: 27.87rem;
+    padding: 2.5625rem;
+    padding-bottom: 40rem;
+
+    background-color: var(--lavender-color);
+}
+
+.Coleccion_003 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Imagen_003{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0rem;
+}
+
+.Imagen_003 img {
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+}
+
+.right_003 h5 {
+    position: absolute;
+    color: var(--English-Violet, #53354C);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+
+    top: 33rem;
+    left: 2rem;
+}
+
+.right_003 h3 {
+    position: absolute;
+    color: var(--English-Violet, #53354C);
+    font-family: Raleway;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+
+    top: 34rem;
+    left: 2rem;
+}
+
+.right_003 p {
+    position: absolute;
+    color: var(--English-Violet, #53354C);
+    font-family: Raleway;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 2.8rem */
+    padding: 0;
+    margin: 0;
+    width: 10.25rem;
+    height: auto;
+
+
+    top: 30rem;
+    right: 2rem;
+}
+
+/* Newsletter section */
+
+.newsletter_wrapper {
+    position: relative;
+    width: 100%;
+    height: 13rem;
+}
+
+.newsletter {
+    position: relative;
+    background-image: url('Images/Fondo_Newsletter.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100%;
+}
+
+.newsletterbox {
+    position: absolute;
+    display: flex;
+    bottom: 1rem;
+    left: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--whiteClay-color); /* Ajusta el color y la opacidad del cuadro si es necesario */
+    padding: 1rem;
+    max-width: 30rem; /* Ajusta el ancho del cuadro */
+
+}
+
+.newsletterbox h6 {
+    font-size: 0.5rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    margin-top: 0rem;
+    color: var(--englishViolet-color); /* Color del título */
+    text-align: center;
+}
+
+.newsletterbox form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* Espaciado entre los cuadros de entrada y el botón */
+    width: 100%;
+}
+
+.newsletterbox input[type="text"] {
+    padding: 0.3rem;
+    border: 1px solid var(--englishViolet-color); /* Bordes de los cuadros de entrada */
+    border-radius: 4px;
+    font-size: 0.5rem;
+    color: var(--englishViolet-color);
+}
+
+.newsletterbox .submit-btn {
+    padding: 0.3rem;
+    border: none;
+    background-color: var(--poppy-color); /* Color del botón */
+    color: var(--whiteClay-color);
+    font-size: 0.6rem;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+/* Footer section */
+
+footer {
+
+    background: var(--poppy-color);
+    color: #f7e9de;
+    padding: 10px 0;
+}
+
+footer .social {
+
+    display: flex;
+    align-items: center;
+}
+
+    .social img {
+        width: 12px;
+        height: auto;
+    }
+
+footer .social a {
+    margin-right: 10px; /* Espaciado entre íconos de redes sociales */
+}
+
+.links ul {
+
+    color: var(--White-clay);
+    text-align: right;
+    font-family: Raleway;
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 0rem;
+
+}
+
+footer h1 {
+
+    color: var(--White-clay);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 16px;
+    margin-top: 16px;
+
+}
+
+footer p {
+
+    color: var(--White-clay);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.links {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1rem;
+    padding-top: 1rem;
+    width: 84%;
+    margin-left: 2.5rem;
 }
 }
