@@ -219,10 +219,10 @@ nav ul li a {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    width: 20rem;
+    width: 50rem;
 
     top: 15rem;
-    right: 2.12rem;
+    right: 1rem;
 }
 
 .right p {
@@ -766,6 +766,7 @@ nav ul li a {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    width: 20rem;
 
     top: 15rem;
     right: 8rem;
