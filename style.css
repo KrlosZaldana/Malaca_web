@@ -1177,7 +1177,7 @@ footer p {
 
 /* ------------------ TAMAÑO IPHONE ------------------ */
 
-@media(max-width: 940px) {
+@media(max-width: 435px) {
 
 .navBar_wrapper {
     max-width: 100%rem;
@@ -1303,6 +1303,7 @@ nav img {
     }
 
 /*Estilo para el texto de la sección */
+
 .conocenos .right h3 {
     position: absolute;
     color: var(--whiteClay-color);
